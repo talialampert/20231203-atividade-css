@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: darkgray;
+}
+
+.bloco-1  {
+    background-color: rgb(20, 20, 20);
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.bloco-2 {
+    background-color: rgb(20, 20, 20);
+    width: 150px;
+    height: 150px;
+    position: relative;
+    float: right;
+}
+
+.bloco-3 {
+    background-color: rgb(20, 20, 20);
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    float: left;
+}
+
+.bloco-4 {
+    background-color: rgb(20, 20, 20);
+    width: 150px;
+    height: 150px;
+    bottom: 0;
+    position: fixed;
+    float: right;
+    right: 0;
+}
